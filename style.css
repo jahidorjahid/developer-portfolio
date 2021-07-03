@@ -38,3 +38,30 @@ h1{
     background-repeat: no-repeat;
     background-position-x: right;
 }
+
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+}
+.experience-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 15px;
+    box-shadow:  10px 5px 45px black;
+    border-radius: 5px;
+}
+.experience-item h3{
+    color: rgb(255, 162, 22);
+}
+#exp-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#exp-baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
