@@ -38,6 +38,9 @@ h1{
     background-repeat: no-repeat;
     background-position-x: right;
 }
+.dream-container{
+    padding-right: 5%;
+}
 
 .experience{
     background-image: url(images/exp-bg.png);
